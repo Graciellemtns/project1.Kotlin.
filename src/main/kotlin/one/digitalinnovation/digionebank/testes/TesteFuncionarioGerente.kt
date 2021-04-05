@@ -2,11 +2,12 @@ package one.digitalinnovation.digionebank.testes
 
 import one.digitalinnovation.digionebank.Analista
 import one.digitalinnovation.digionebank.Funcionario
+import one.digitalinnovation.digionebank.Gerente
 
 fun main() {
 
-    val timao = Analista("Timão Martins", "123.456.789.01",5000.00)
-    imprimeRelatorio(timao)
+    val fernando = Gerente("Fernando Benhossi", "123.456.789.01",5000.00)
+    imprimeRelatorioFuncionario.imprime(fernando)
 
 }
-    fun imprimeRelatorio(funcionario: Funcionario)= println(funcionario.toString())
+
